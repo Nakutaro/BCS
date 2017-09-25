@@ -1,0 +1,6 @@
+USD
+HKD
+RMB
+RUB
+AUD
+BGN
