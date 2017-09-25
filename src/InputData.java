@@ -4,6 +4,8 @@
 import java.io.IOException;
 import java.util.Scanner;
 
+import static java.lang.System.exit;
+
 class InputData {
     private WorkWithFile workWithFile = new WorkWithFile();
     /**
@@ -18,7 +20,7 @@ class InputData {
         {
             System.out.print("Enter currencies: ");
             currency = in.nextLine();
-            if (currency.equals("q")) break;
+            if (currency.equals("q")) exit(0);
             if (currency.equals("balance"))
             {
                 workWithFile.currentBalance();
